@@ -37,7 +37,8 @@
 |  | 字典管理 | 对系统中经常使用的一些较为固定的数据进行维护 |
 | 🚀 | 短信管理 | 短信渠道、短息模板、短信日志，对接阿里云、云片等主流短信平台 |
 | 🚀 | 操作日志 | 系统正常操作日志记录和查询，集成 Swagger 生成日志内容 |
-|  | 登录日志 | 系统登录日志记录查询包含登录异常 |
+|  | 登录日志 | 系统登录日志记录查询，包含登录异常 |
+| 🚀 | 错误码管理 | 系统所有错误码的管理，可在线修改错误提示，无需重启服务 |
 |  | 通知公告 | 系统通知公告信息发布维护 |
 
 计划新增功能：
@@ -53,9 +54,10 @@
 | 🚀 | 文件服务 | 支持本地文件存储，同时支持兼容 Amazon S3 协议的云服务、开源组件 | 
 | 🚀 | API 日志 | 包括 RESTful API 访问日志、异常日志两部分，方便排查 API 相关的问题 |
 |  | MySQL 监控 | 监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈 |
-| | Redis 监控 |监控 Redis 数据库的使用情况，使用的 Redis Key 管理 |
+|  | Redis 监控 |监控 Redis 数据库的使用情况，使用的 Redis Key 管理 |
 | 🚀 |Java 监控 | 基于 Spring Boot Admin 实现 Java 应用的监控 |
-| 🚀 | 链路追踪 | 基于 SkyWalking 实现性能监控，特别是链路的追踪 |
+| 🚀 | 链路追踪 | 接入 SkyWalking 组件，实现链路追踪 |
+| 🚀 | 日志中心 | 接入 SkyWalking 组件，实现日志中心 |
 | 🚀 | 分布式锁 | 基于 Redis 实现分布式锁，满足并发场景 |
 | 🚀 | 幂等组件 | 基于 Redis 实现幂等组件，解决重复请求问题 |
 | 🚀 | 服务保障 | 基于 Resilience4j 实现服务的稳定性，包括限流、熔断等功能 |
@@ -64,7 +66,6 @@
 
 计划新增：
 * 工作流
-* 错误码
 
 ### 研发工具
 
@@ -95,7 +96,7 @@
 | [MySQL](https://www.mysql.com/cn/) | 数据库服务器 | 5.7 |  |
 | [Druid](https://github.com/alibaba/druid) | JDBC 连接池、监控组件 | 1.2.4 | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
 | [MyBatis Plus](https://mp.baomidou.com/) | MyBatis 增强工具包 | 3.4.1 | [文档](http://www.iocoder.cn/Spring-Boot/MyBatis/?yudao) |
-| [Dynamic Datasource](https://dynamic-datasource.com/) | 动态数据源 | 3.3.2 | [文档](hhttp://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
+| [Dynamic Datasource](https://dynamic-datasource.com/) | 动态数据源 | 3.3.2 | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
 | [Redis](https://redis.io/) | key-value 数据库 | 5.0 |  |
 | [Redisson](https://github.com/redisson/redisson) | Redis 客户端 | 3.1.46 | [文档](http://www.iocoder.cn/Spring-Boot/Redis/?yudao) |
 | [Spring MVC](https://github.com/spring-projects/spring-framework/tree/master/spring-webmvc) | MVC 框架  | 5.4.2 | [文档](http://www.iocoder.cn/SpringMVC/MVC/?yudao) |
