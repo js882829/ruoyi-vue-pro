@@ -93,25 +93,25 @@
 
 | 框架 | 说明 |  版本 | 学习指南 |
 | --- | --- | --- | --- |
-| [Spring Boot](https://spring.io/projects/spring-boot) | 应用开发框架 | 2.4.2 | [文档](https://github.com/YunaiV/SpringBoot-Labs) |
+| [Spring Boot](https://spring.io/projects/spring-boot) | 应用开发框架 | 2.4.5 | [文档](https://github.com/YunaiV/SpringBoot-Labs) |
 | [MySQL](https://www.mysql.com/cn/) | 数据库服务器 | 5.7 |  |
 | [Druid](https://github.com/alibaba/druid) | JDBC 连接池、监控组件 | 1.2.4 | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
 | [MyBatis Plus](https://mp.baomidou.com/) | MyBatis 增强工具包 | 3.4.1 | [文档](http://www.iocoder.cn/Spring-Boot/MyBatis/?yudao) |
 | [Dynamic Datasource](https://dynamic-datasource.com/) | 动态数据源 | 3.3.2 | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
 | [Redis](https://redis.io/) | key-value 数据库 | 5.0 |  |
 | [Redisson](https://github.com/redisson/redisson) | Redis 客户端 | 3.1.46 | [文档](http://www.iocoder.cn/Spring-Boot/Redis/?yudao) |
-| [Spring MVC](https://github.com/spring-projects/spring-framework/tree/master/spring-webmvc) | MVC 框架  | 5.4.2 | [文档](http://www.iocoder.cn/SpringMVC/MVC/?yudao) |
-| [Spring Security](https://github.com/spring-projects/spring-security) | Spring 安全框架 | 5.4.2 | [文档](http://www.iocoder.cn/Spring-Boot/Spring-Security/?yudao) |
+| [Spring MVC](https://github.com/spring-projects/spring-framework/tree/master/spring-webmvc) | MVC 框架  | 5.4.6 | [文档](http://www.iocoder.cn/SpringMVC/MVC/?yudao) |
+| [Spring Security](https://github.com/spring-projects/spring-security) | Spring 安全框架 | 5.4.6 | [文档](http://www.iocoder.cn/Spring-Boot/Spring-Security/?yudao) |
 | [Hibernate Validator](https://github.com/hibernate/hibernate-validator) | 参数校验组件 | 6.1.7 | [文档](http://www.iocoder.cn/Spring-Boot/Validation/?yudao) |
 | [Quartz](https://github.com/quartz-scheduler) | 任务调度组件 | 2.3.2 | [文档](http://www.iocoder.cn/Spring-Boot/Job/?yudao) |
 | [Knife4j](https://gitee.com/xiaoym/knife4j) | Swagger 增强 UI 实现 | 3.0.2 | [文档](http://www.iocoder.cn/Spring-Boot/Swagger/?yudao) |
 | [Resilience4j](https://github.com/resilience4j/resilience4j) | 服务保障组件 | 1.7.0 | [文档](http://www.iocoder.cn/Spring-Boot/Resilience4j/?yudao) |
-| [SkyWalking](https://skywalking.apache.org/) | 分布式应用追踪系统 | 8.6.0 | [文档](http://www.iocoder.cn/Spring-Boot/SkyWalking/?yudao) |
-| [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin) | Spring Boot 监控平台 | 8.6.0 | [文档](http://www.iocoder.cn/Spring-Boot/Admin/?yudao) |
+| [SkyWalking](https://skywalking.apache.org/) | 分布式应用追踪系统 | 8.5.0 | [文档](http://www.iocoder.cn/Spring-Boot/SkyWalking/?yudao) |
+| [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin) | Spring Boot 监控平台 | 2.3.1 | [文档](http://www.iocoder.cn/Spring-Boot/Admin/?yudao) |
 | [Jackson](https://github.com/FasterXML/jackson) | JSON 工具库 | 2.11.4 |  |
 | [MapStruct](https://mapstruct.org/) | Java Bean 转换 | 1.4.1 | [文档](http://www.iocoder.cn/Spring-Boot/MapStruct/?yudao) |
 | [Lombok](https://projectlombok.org/) | 消除冗长的 Java 代码 | 1.16.14 | [文档](http://www.iocoder.cn/Spring-Boot/Lombok/?yudao) |
-| [JUnit](https://junit.org/junit5/) | Java 单元测试框架 | 5.7.0 | - |
+| [JUnit](https://junit.org/junit5/) | Java 单元测试框架 | 5.7.1 | - |
 | [Mockito](https://github.com/mockito/mockito) | Java Mock 框架 | 3.6.28 | - |
 
 ### 前端
@@ -123,39 +123,32 @@
 
 ## 演示图
 
-<table>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/cd1f90be5f2684f4560c9519c0f2a232ee8.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/1cbcf0e6f257c7d3a063c0e3f2ff989e4b3.jpg"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-8074972883b5ba0622e13246738ebba237a.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-9f88719cdfca9af2e58b352a20e23d43b12.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-39bf2584ec3a529b0d5a3b70d15c9b37646.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-936ec82d1f4872e1bc980927654b6007307.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-b2d62ceb95d2dd9b3fbe157bb70d26001e9.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-d67451d308b7a79ad6819723396f7c3d77a.png"/></td>
-    </tr>	 
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/5e8c387724954459291aafd5eb52b456f53.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/644e78da53c2e92a95dfda4f76e6d117c4b.jpg"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-8370a0d02977eebf6dbf854c8450293c937.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-49003ed83f60f633e7153609a53a2b644f7.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-d4fe726319ece268d4746602c39cffc0621.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-c195234bbcd30be6927f037a6755e6ab69c.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/b6115bc8c31de52951982e509930b20684a.jpg"/></td>
-        <td> - </td>
-    </tr>
-</table>
+### 系统功能
 
+| 模块 | biu |  biu | biu |
+| --- | --- | --- | --- |
+| 登陆 & 首页 | ![登录](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/登录.jpg) | ![首页](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/首页.jpg) | ![个人中心](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/个人中心.jpg) |
+| 用户 | ![用户管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/用户管理.jpg) | ![在线用户](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/在线用户.jpg) | - |
+| 部门 & 岗位 | ![部门管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/部门管理.jpg) | ![岗位管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/岗位管理.jpg) | - |
+| 菜单 & 角色 | ![菜单管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/菜单管理.jpg) | ![角色管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/角色管理.jpg) | - |
+| 审计日志 | ![操作日志](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/操作日志.jpg) | ![登陆日志](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/登陆日志.jpg) | - |
+| 短信 | ![短信渠道](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/短信渠道.jpg) | ![短信模板](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/短信模板.jpg) | ![短信日志](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/短信日志.jpg) |
+| 字典 | ![字典类型](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/字典类型.jpg) | ![字典数据](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/字典数据.jpg) | - |
+| 错误码 & 通知 | ![错误码管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/错误码管理.jpg) | ![通知公告](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/通知公告.jpg) | - |
 
+### 基础设施
+
+| 模块 | biu |  biu | biu |
+| --- | --- | --- | --- |
+| 文件 & 配置 | ![文件管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/文件管理.jpg) | ![配置管理](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/配置管理.jpg) | - |
+| 定时任务 | ![定时任务](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/定时任务.jpg) | ![任务日志](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/任务日志.jpg) | - |
+| API 日志 | ![访问日志](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/访问日志.jpg) | ![错误日志](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/错误日志.jpg) | - |
+| MySQL & Redis | ![MySQL](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/MySQL.jpg) | ![Redis](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/Redis.jpg) | - |
+| 监控平台 | ![Java监控](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/Java监控.jpg) | ![链路追踪](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/链路追踪.jpg) | ![日志中心](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/日志中心.jpg) |
+
+### 研发工具
+
+| 模块 | biu |  biu | biu |
+| --- | --- | --- | --- |
+| 代码生成 | ![代码生成](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/代码生成.jpg) | ![生成效果](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/生成效果.jpg) | ![表单构建](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/表单构建.jpg) |
+| 文档 | ![系统接口](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/系统接口.jpg) | ![数据库文档](http://staitc2.iocoder.cn/images/ruoyi-vue-pro/数据库文档.jpg) | - |
